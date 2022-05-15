@@ -10,7 +10,7 @@ import javax.persistence.Id;
 public class Vendas {
 	
 	@Id
-	private int idVenda;
+	private Long idVenda;
 
 	@Column
 	private Instant dataVenda;

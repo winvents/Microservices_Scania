@@ -54,8 +54,8 @@ public class Caminhao {
 	@Column
 	private int quilometragem;
 	
-	@Column
-	private int velocidade;
+	@Column(name = "velocidade")
+	private int velocidadeMaxima;
 	
 	@Column
 	private Long preco;

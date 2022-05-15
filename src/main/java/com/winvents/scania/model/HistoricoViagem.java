@@ -4,13 +4,16 @@ import java.time.Instant;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class HistoricoViagem {
 
 	@Id
-	private int idViagem;
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long idViagem;
 	
 	@Column(nullable = false, length = 100)
 	private String destino;
