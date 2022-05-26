@@ -38,7 +38,7 @@ public class CotacaoController {
 	@GetMapping("/formulario")
 	public String showCotacao(Model model) {
 		model.addAttribute("cotacao", new Cotacao());
-		return "formulario";
+		return null;
 	}
 	
 	@PostMapping("/salvar")
@@ -50,14 +50,14 @@ public class CotacaoController {
 		attrs.addFlashAttribute("addCotacaoSucess", true);
 		attrs.addFlashAttribute("cotacaoSalva", cotacaoSalva);
 
-		RedirectView redirectView = new RedirectView("/nova-cotacao");
+		RedirectView redirectView = new RedirectView("/listar");
 		return null;
 	}
 
 	@GetMapping("/{id}/delete")
 	public RedirectView delete(@PathVariable Long id) {
 		cotacaoRepository.deleteById(id);
-		RedirectView redirectView = new RedirectView("/nova-cotacao");
+		RedirectView redirectView = new RedirectView("/listar");
 		return null;
 	}
 

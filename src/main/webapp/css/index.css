@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+*{
+	font-family:'Red Hat Display', sans-serif;
+}
 body {
 	background-image: url(../assets/background.png);
 	background-size: cover;
@@ -9,9 +14,22 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 30vh;
+	text-align: justify;
+	font-weight: 600;
 }
 
 .gradient {
 	background-color: #0e438f;
 	background-image: linear-gradient(108deg, #0e438f 0%, #1ddeff 100%);
+	padding: 10px;
+	width: 150px;
+	border-radius: 5px;
+	margin-top: 25px;
+	border-style: none;
+}
+
+.gradient, a{
+	color: #fff;
+	font-weight:600;
+	text-decoration: none;	
 }

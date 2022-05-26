@@ -13,8 +13,8 @@
 				de dados baseados nas necessidades de um cliente, e que através
 				destes filtros, facilita ao vendedor oferecer uma série de opções de
 				produtos.</p>
-			<button">
-				<a  class="gradient" href="listar">Cotações</a>
+			<button class="gradient">
+				<a href="listar">Nova Cotação</a>
 			</button>
 	</div>
 

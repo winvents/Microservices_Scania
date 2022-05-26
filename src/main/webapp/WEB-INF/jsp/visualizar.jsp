@@ -5,14 +5,14 @@
 <body>
 	<p>Cotação #ID ${cotacao.id}</p>
 	
-	<p><a href="posts/form">Adicionar novo</a></p>		
+	<p><a href="listar/formulario">Adicionar novo</a></p>		
 	
 	<table>
 		<thead>
 			<tr>
 				<th>Id</th>
-				<th>Título</th>
-				<th>Autor</th>
+				<th>Data</th>
+				<th>Status</th>
 			</tr>
 		</thead>
 		<tbody>	
