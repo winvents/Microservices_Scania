@@ -1,0 +1,17 @@
+body {
+	background-image: url(../assets/background.png);
+	background-size: cover;
+	color: #FFFFFF;
+}
+
+.container {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30vh;
+}
+
+.gradient {
+	background-color: #0e438f;
+	background-image: linear-gradient(108deg, #0e438f 0%, #1ddeff 100%);
+}
